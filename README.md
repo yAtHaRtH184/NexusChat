@@ -1,61 +1,97 @@
-# Messaging App 💬
+# NexusChat 💬
 
-A real-time chat application built using **Spring Boot, WebSockets, JWT authentication, and React (Vite)**.
+A production-style real-time chat application built using **Spring Boot, React, PostgreSQL, JWT Authentication, WebSockets, and Docker**.
 
----
-
-## 🚀 Tech Stack
-
-* **Frontend:** React (Vite)
-* **Backend:** Spring Boot
-* **Database:** PostgreSQL (Docker)
-* **Authentication:** JWT
-* **Realtime:** WebSockets
+The application enables secure real-time communication through chat rooms with persistent message storage and JWT-based authentication.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 Features
 
-### 1. Clone Repo
+- Secure user authentication using JWT
+- Real-time messaging using STOMP WebSockets
+- Multi-user chat rooms
+- Persistent chat history with PostgreSQL
+- REST APIs for authentication and chatroom management
+- Dockerized backend and database
+- Responsive React frontend
 
-```bash
-git clone https://github.com/your-username/messaging-app.git
-cd messaging-app
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- Spring Data JPA
+- WebSockets (STOMP)
+
+### Frontend
+- React (Vite)
+- JavaScript
+- HTML
+- CSS
+
+### Database
+- PostgreSQL
+
+### DevOps & Tools
+- Docker
+- Maven
+- Git
+- IntelliJ IDEA
+
+---
+
+## 📂 Project Structure
+
+```
+NexusChat
+├── backend
+├── frontend
+├── docker
+├── README.md
+└── .env.example
 ```
 
 ---
 
-### 2. Setup Environment Variables
+## ⚙️ Installation
 
-Create `.env` file in root:
+### Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/NexusChat.git
+cd NexusChat
+```
+
+### Configure Environment Variables
+
+Create a `.env` file:
 
 ```env
 POSTGRES_DB=your_db
 POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
+JWT_SECRET=your_secret
 ```
 
----
-
-### 3. Run Database (Docker)
+### Start PostgreSQL
 
 ```bash
 cd docker
-docker-compose up
+docker-compose up -d
 ```
 
----
-
-### 4. Run Backend
+### Run Backend
 
 ```bash
 cd backend
 ./mvnw spring-boot:run
 ```
 
----
-
-### 5. Run Frontend
+### Run Frontend
 
 ```bash
 cd frontend
@@ -65,19 +101,50 @@ npm run dev
 
 ---
 
-## ✨ Features
+## 📸 Screenshots
 
-* User authentication (JWT)
-* Real-time messaging (WebSockets)
-* Chat rooms
-* Clean UI with React
+> Add screenshots of:
+
+- Login Page
+- Registration Page
+- Chat Dashboard
+- Chat Room
+- Messaging Screen
+
+---
+
+## 📡 API Highlights
+
+- User Registration
+- User Login
+- Create Chat Room
+- Join Chat Room
+- Fetch Chat History
+- Real-Time Messaging (WebSocket)
 
 ---
 
-## 📌 Future Improvements
+## 🔒 Security
 
-* Deployment (AWS / Railway)
-* Message persistence optimization
-* Notifications
+- JWT Authentication
+- Password Encryption
+- Protected REST APIs
+- CORS Configuration
 
 ---
+
+## 🚀 Future Improvements
+
+- Read Receipts
+- File Sharing
+- Typing Indicators
+- Push Notifications
+- Online Presence
+- Cloud Deployment (AWS)
+
+---
+
+## 👨‍💻 Author
+
+**Yatharth Kumar Rana**
+
