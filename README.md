@@ -219,25 +219,26 @@ http://localhost:5173
 
 ## Login Page
 
-<img width="1905" alt="Login" src="YOUR_LOGIN_IMAGE_URL"/>
+![Login](screenshots/login.png)
 
 ---
 
 ## Registration Page
 
-<img width="1886" alt="Register" src="YOUR_REGISTER_IMAGE_URL"/>
+![Register](screenshots/register.png)
+
 
 ---
 
 ## Dashboard
 
-<img width="1913" alt="Dashboard" src="YOUR_DASHBOARD_IMAGE_URL"/>
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
 ## Chat Room
 
-<img width="1908" alt="Chat" src="YOUR_CHAT_IMAGE_URL"/>
+![Chat](screenshots/Chat.png)
 
 ---
 
